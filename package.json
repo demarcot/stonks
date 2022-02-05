@@ -1,0 +1,32 @@
+{
+  "name": "stonks",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/aws-app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1068.0",
+    "finnhub": "^1.2.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "mocha": "^9.0.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
